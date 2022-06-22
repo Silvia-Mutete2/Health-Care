@@ -170,3 +170,48 @@
 .services i{
     color: cornflowerblue;
   }
+
+/*----about -section*/
+.about-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  
+.about-heading {
+    text-transform: uppercase;
+  }
+  
+.about-heading .about-heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  
+.about-heading .about-heading-lower {
+    display: block;
+    font-size: 38px;
+    font-weight: 100;
+  }
+   
+.bg-faded {
+    background-color: cornflowerblue;
+  }
+
+.about-button .btn-color{
+    background: lightskyblue;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+.about {
+    position: relative;
+  }
+
+  
+.about .about-text .about-button {
+      width: 100%;
+      left: 0;
+      position: absolute;
+      bottom: -2rem;
+    }
+  
