@@ -341,4 +341,16 @@
     padding: 10px;
   }  
   
-  
+ /* footer section  */
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    background:cornflowerblue;
+    }
+.footer .btn-back{
+    background: #fff;
+    color: cornflowerblue;
+    }
+.footer .text{
+    color: #000;
+    } 
