@@ -9,12 +9,13 @@
 }
 /*showcase  background*/
 .showcase{
-    background-image: url('hosp5.jpeg');
+    background-image: url('hosp1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
+    position: relative;
 }
 
 /*navbar section*/
@@ -30,11 +31,11 @@
 }
 .navbar.sticky{
     padding: 10px 100px;
-    background:black;
+    background:crimson;
 
 }
 .navbar .logo{
-    color: black;
+    color: yellowgreen;
     font-size: 30px;
 }
 .navbar ul li{
@@ -52,7 +53,7 @@
     text-align: center;
 }
 .navbar ul li a{
-    color: crimson;
+    color: yellowgreen;
     font-weight: bold;
     transition: all 0.5s ease;
 }
@@ -60,3 +61,62 @@
     color: crimson;
 }
 
+/* shade */
+#shade .container {
+    padding-top: 80px;
+    }
+    
+#shade:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    }
+    
+#shade h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: black;
+    }
+    
+#shade h2 {
+    color: black;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    }
+.main-btn {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+        }
+        
+.main-btn:hover {
+    background: crimson;
+    border: 2px solid crimson;
+    text-decoration: none;
+    color:#fff;
+        }
+.form-group .btn-form{
+    background: black;
+    border: 2px solid black;
+    text-decoration: none;
+    color:#fff;
+    }
