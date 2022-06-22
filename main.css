@@ -306,7 +306,8 @@
     margin-left: 8px;
   }  
 
-  .contact-box {
+  /* contact section */
+.contact-box {
     color: #000;
     text-align: center;
     box-shadow: 0 0 20px rgba(65, 76, 100, 0.05);
@@ -314,27 +315,27 @@
     background:cornflowerblue;
   }
   
-  .contact-box i {
+.contact-box i {
     font-size: 32px;
     color: #fff;
     border-radius: 50%;
     padding: 8px;
   }
   
-  .contact-box h3 {
+.contact-box h3 {
     font-size: 20px;
     color: #000;
     font-weight: bold;
     margin: 10px 0;
   }
   
-  .contact-box p {
+.contact-box p {
     padding: 0;
     line-height: 24px;
     font-size: 14px;
     margin-bottom: 0;
   }
-  .contact button{
+.contact button{
     background: cornflowerblue;
     border: none;
     padding: 10px;
