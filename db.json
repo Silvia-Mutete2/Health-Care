@@ -1,0 +1,38 @@
+{
+    "consultations": [
+      {
+        "id": 1,
+        "patient-name": "Mark Brav",
+        "contact": "0897746392",
+        "date": "22/03/2021",
+        "time": "11.23 PM",
+        "symptoms": "Chills, fever, fatigue, vomiting"
+
+      },
+      {
+        "id": 2,
+        "patient-name": "Ivy Moh",
+        "contact": "0833909372",
+        "date": "2/04/2020",
+        "time": "11.25 AM",
+        "symptoms": "agitation, excessive crying, irritability, restlessness, or social isolation, loss of appetite"
+      },
+      {
+        "id": 3,
+        "patient-name": "Nelly Mark",
+        "contact": "027746392",
+        "date": "15/02/2022",
+        "time": "4.56 PM",
+        "symptoms": "Shivering, fever, shortness of breath, cough"
+      },
+      {
+        "id": 3,
+        "patient-name": "John Omondi",
+        "contact": "0728946392",
+        "date": "9/01/2022",
+        "time": "5.24 AM",
+        "symptoms": "Chills, headache, pale skin, diarrhoea"
+
+      }
+    ]
+  }
