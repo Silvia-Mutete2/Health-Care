@@ -4,8 +4,8 @@ module.exports = [
     "id": 0,
     "name": "Jeanie Green",
     "date": "Sat May 08 2021 19:59:57 GMT+0300 (East Africa Time)",
-    "time": "<ReferenceError: time is not defined>",
-    "symptoms": "<ReferenceError: symptoms is not defined>"
+    "time": "10:00 PM",
+    "symptoms": "Headache, nausea"
   },
   {
     "id": 1,
