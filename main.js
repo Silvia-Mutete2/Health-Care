@@ -15,13 +15,25 @@ document.addEventListener("DOMContentLoaded", (e) => {
 form.addEventListener('submit', addConsultations);
 function addConsultations(e) {
   e.preventDefault();
+
     let newConsultation = {
       patientname : patientName.value,
       contact : contact.value,
       date : date.value,
       time : time.value,
-      symptoms : symptoms.value
-          }}
+      symptoms : symptoms.value}
+
+      fetch(consultations, {
+        method: "POST",
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newConsultation)
+    })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.log(error))
+          }
 
 const showConsultations= (data) => {
   console.log(data)
