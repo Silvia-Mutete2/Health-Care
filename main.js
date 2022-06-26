@@ -76,8 +76,3 @@ const showConsultations= (data) => {
         }
          
     
-
-    
-    
-
-
