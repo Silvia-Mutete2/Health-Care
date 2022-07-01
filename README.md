@@ -8,7 +8,7 @@ Silvia Mutete
 
 ## Setup/Installation Requirements
 * On a your directory
-* Clone the repo {git clone https://github.com/Silvia-Mutete2/Health-Care.git}
+* Clone the repo {git clone git@github.com:Silvia-Mutete2/Health-Care.git}
 * Run it on visual studio code
 * Install JSON-Server and run it.
 
