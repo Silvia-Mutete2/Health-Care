@@ -14,6 +14,7 @@ Silvia Mutete
 
 ## Live link
 ## Known Bugs
+The image on the home section is taking a bit of time to load.
 
 ## Technologies Used
 This website has been created using HTML,CSS and JavaScript. Visual Studio Code to run the codes and terminal to run git commands.
